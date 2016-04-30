@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1B4207C1CD571E600EDF6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B4207B1CD571E600EDF6A0 /* AppDelegate.swift */; };
+		D1B4207E1CD571E600EDF6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B4207D1CD571E600EDF6A0 /* ViewController.swift */; };
+		D1B420811CD571E600EDF6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B4207F1CD571E600EDF6A0 /* Main.storyboard */; };
+		D1B420831CD571E600EDF6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B420821CD571E600EDF6A0 /* Assets.xcassets */; };
+		D1B420861CD571E600EDF6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B420841CD571E600EDF6A0 /* LaunchScreen.storyboard */; };
+		D1B420911CD571E600EDF6A0 /* Now_Or_Never_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B420901CD571E600EDF6A0 /* Now_Or_Never_2_0Tests.swift */; };
+		D1B4209C1CD571E600EDF6A0 /* Now_Or_Never_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B4209B1CD571E600EDF6A0 /* Now_Or_Never_2_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1B4208D1CD571E600EDF6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1B420701CD571E600EDF6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1B420771CD571E600EDF6A0;
+			remoteInfo = "Now Or Never 2.0";
+		};
+		D1B420981CD571E600EDF6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1B420701CD571E600EDF6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1B420771CD571E600EDF6A0;
+			remoteInfo = "Now Or Never 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1B420781CD571E600EDF6A0 /* Now Or Never 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Now Or Never 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B4207B1CD571E600EDF6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1B4207D1CD571E600EDF6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1B420801CD571E600EDF6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1B420821CD571E600EDF6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1B420851CD571E600EDF6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1B420871CD571E600EDF6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B4208C1CD571E600EDF6A0 /* Now Or Never 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Now Or Never 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B420901CD571E600EDF6A0 /* Now_Or_Never_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Now_Or_Never_2_0Tests.swift; sourceTree = "<group>"; };
+		D1B420921CD571E600EDF6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B420971CD571E600EDF6A0 /* Now Or Never 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Now Or Never 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B4209B1CD571E600EDF6A0 /* Now_Or_Never_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Now_Or_Never_2_0UITests.swift; sourceTree = "<group>"; };
+		D1B4209D1CD571E600EDF6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1B420751CD571E600EDF6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B420891CD571E600EDF6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B420941CD571E600EDF6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1B4206F1CD571E600EDF6A0 = {
+			isa = PBXGroup;
+			children = (
+				D1B4207A1CD571E600EDF6A0 /* Now Or Never 2.0 */,
+				D1B4208F1CD571E600EDF6A0 /* Now Or Never 2.0Tests */,
+				D1B4209A1CD571E600EDF6A0 /* Now Or Never 2.0UITests */,
+				D1B420791CD571E600EDF6A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B420791CD571E600EDF6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1B420781CD571E600EDF6A0 /* Now Or Never 2.0.app */,
+				D1B4208C1CD571E600EDF6A0 /* Now Or Never 2.0Tests.xctest */,
+				D1B420971CD571E600EDF6A0 /* Now Or Never 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B4207A1CD571E600EDF6A0 /* Now Or Never 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D1B4207B1CD571E600EDF6A0 /* AppDelegate.swift */,
+				D1B4207D1CD571E600EDF6A0 /* ViewController.swift */,
+				D1B4207F1CD571E600EDF6A0 /* Main.storyboard */,
+				D1B420821CD571E600EDF6A0 /* Assets.xcassets */,
+				D1B420841CD571E600EDF6A0 /* LaunchScreen.storyboard */,
+				D1B420871CD571E600EDF6A0 /* Info.plist */,
+			);
+			path = "Now Or Never 2.0";
+			sourceTree = "<group>";
+		};
+		D1B4208F1CD571E600EDF6A0 /* Now Or Never 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1B420901CD571E600EDF6A0 /* Now_Or_Never_2_0Tests.swift */,
+				D1B420921CD571E600EDF6A0 /* Info.plist */,
+			);
+			path = "Now Or Never 2.0Tests";
+			sourceTree = "<group>";
+		};
+		D1B4209A1CD571E600EDF6A0 /* Now Or Never 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1B4209B1CD571E600EDF6A0 /* Now_Or_Never_2_0UITests.swift */,
+				D1B4209D1CD571E600EDF6A0 /* Info.plist */,
+			);
+			path = "Now Or Never 2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1B420771CD571E600EDF6A0 /* Now Or Never 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B420A01CD571E600EDF6A0 /* Build configuration list for PBXNativeTarget "Now Or Never 2.0" */;
+			buildPhases = (
+				D1B420741CD571E600EDF6A0 /* Sources */,
+				D1B420751CD571E600EDF6A0 /* Frameworks */,
+				D1B420761CD571E600EDF6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Now Or Never 2.0";
+			productName = "Now Or Never 2.0";
+			productReference = D1B420781CD571E600EDF6A0 /* Now Or Never 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1B4208B1CD571E600EDF6A0 /* Now Or Never 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B420A31CD571E600EDF6A0 /* Build configuration list for PBXNativeTarget "Now Or Never 2.0Tests" */;
+			buildPhases = (
+				D1B420881CD571E600EDF6A0 /* Sources */,
+				D1B420891CD571E600EDF6A0 /* Frameworks */,
+				D1B4208A1CD571E600EDF6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1B4208E1CD571E600EDF6A0 /* PBXTargetDependency */,
+			);
+			name = "Now Or Never 2.0Tests";
+			productName = "Now Or Never 2.0Tests";
+			productReference = D1B4208C1CD571E600EDF6A0 /* Now Or Never 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1B420961CD571E600EDF6A0 /* Now Or Never 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B420A61CD571E600EDF6A0 /* Build configuration list for PBXNativeTarget "Now Or Never 2.0UITests" */;
+			buildPhases = (
+				D1B420931CD571E600EDF6A0 /* Sources */,
+				D1B420941CD571E600EDF6A0 /* Frameworks */,
+				D1B420951CD571E600EDF6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1B420991CD571E600EDF6A0 /* PBXTargetDependency */,
+			);
+			name = "Now Or Never 2.0UITests";
+			productName = "Now Or Never 2.0UITests";
+			productReference = D1B420971CD571E600EDF6A0 /* Now Or Never 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1B420701CD571E600EDF6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Justin Mac";
+				TargetAttributes = {
+					D1B420771CD571E600EDF6A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D27NEHPLYS;
+					};
+					D1B4208B1CD571E600EDF6A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D27NEHPLYS;
+						TestTargetID = D1B420771CD571E600EDF6A0;
+					};
+					D1B420961CD571E600EDF6A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D27NEHPLYS;
+						TestTargetID = D1B420771CD571E600EDF6A0;
+					};
+				};
+			};
+			buildConfigurationList = D1B420731CD571E600EDF6A0 /* Build configuration list for PBXProject "Now Or Never 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1B4206F1CD571E600EDF6A0;
+			productRefGroup = D1B420791CD571E600EDF6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1B420771CD571E600EDF6A0 /* Now Or Never 2.0 */,
+				D1B4208B1CD571E600EDF6A0 /* Now Or Never 2.0Tests */,
+				D1B420961CD571E600EDF6A0 /* Now Or Never 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1B420761CD571E600EDF6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B420861CD571E600EDF6A0 /* LaunchScreen.storyboard in Resources */,
+				D1B420831CD571E600EDF6A0 /* Assets.xcassets in Resources */,
+				D1B420811CD571E600EDF6A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B4208A1CD571E600EDF6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B420951CD571E600EDF6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1B420741CD571E600EDF6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B4207E1CD571E600EDF6A0 /* ViewController.swift in Sources */,
+				D1B4207C1CD571E600EDF6A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B420881CD571E600EDF6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B420911CD571E600EDF6A0 /* Now_Or_Never_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B420931CD571E600EDF6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B4209C1CD571E600EDF6A0 /* Now_Or_Never_2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1B4208E1CD571E600EDF6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1B420771CD571E600EDF6A0 /* Now Or Never 2.0 */;
+			targetProxy = D1B4208D1CD571E600EDF6A0 /* PBXContainerItemProxy */;
+		};
+		D1B420991CD571E600EDF6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1B420771CD571E600EDF6A0 /* Now Or Never 2.0 */;
+			targetProxy = D1B420981CD571E600EDF6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1B4207F1CD571E600EDF6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B420801CD571E600EDF6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1B420841CD571E600EDF6A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B420851CD571E600EDF6A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1B4209E1CD571E600EDF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1B4209F1CD571E600EDF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1B420A11CD571E600EDF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Now Or Never 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinmac.Now-Or-Never-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1B420A21CD571E600EDF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Now Or Never 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinmac.Now-Or-Never-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1B420A41CD571E600EDF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Now Or Never 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinmac.Now-Or-Never-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Now Or Never 2.0.app/Now Or Never 2.0";
+			};
+			name = Debug;
+		};
+		D1B420A51CD571E600EDF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Now Or Never 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinmac.Now-Or-Never-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Now Or Never 2.0.app/Now Or Never 2.0";
+			};
+			name = Release;
+		};
+		D1B420A71CD571E600EDF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Now Or Never 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinmac.Now-Or-Never-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Now Or Never 2.0";
+			};
+			name = Debug;
+		};
+		D1B420A81CD571E600EDF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Now Or Never 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinmac.Now-Or-Never-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Now Or Never 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1B420731CD571E600EDF6A0 /* Build configuration list for PBXProject "Now Or Never 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B4209E1CD571E600EDF6A0 /* Debug */,
+				D1B4209F1CD571E600EDF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B420A01CD571E600EDF6A0 /* Build configuration list for PBXNativeTarget "Now Or Never 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B420A11CD571E600EDF6A0 /* Debug */,
+				D1B420A21CD571E600EDF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1B420A31CD571E600EDF6A0 /* Build configuration list for PBXNativeTarget "Now Or Never 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B420A41CD571E600EDF6A0 /* Debug */,
+				D1B420A51CD571E600EDF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1B420A61CD571E600EDF6A0 /* Build configuration list for PBXNativeTarget "Now Or Never 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B420A71CD571E600EDF6A0 /* Debug */,
+				D1B420A81CD571E600EDF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1B420701CD571E600EDF6A0 /* Project object */;
+}
